@@ -9,5 +9,5 @@ To build and run the API locally (assuming the .NET SDK is installed):
 dotnet run --project BaseWebApi/BaseWebApi.csproj
 ```
 
-The default endpoint is `/weatherforecast`.
+
 
