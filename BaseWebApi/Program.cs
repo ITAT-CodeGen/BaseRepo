@@ -5,6 +5,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Register application services
+builder.Services.AddScoped<BaseWebApi.Services.IProductService, BaseWebApi.Services.ProductService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
