@@ -9,6 +9,5 @@ To build and run the API locally (assuming the .NET SDK is installed):
 dotnet run --project BaseWebApi/BaseWebApi.csproj
 ```
 
-Once the API is running you can retrieve sample data by navigating to
-`/WeatherForecast` or the shorthand `/GetWeatherForecast`.
+
 

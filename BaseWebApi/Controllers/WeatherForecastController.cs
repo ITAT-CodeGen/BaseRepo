@@ -18,8 +18,7 @@ namespace BaseWebApi.Controllers
             _logger = logger;
         }
 
-        // Support calling the endpoint at the root path '/GetWeatherForecast'
-        [HttpGet("/GetWeatherForecast", Name = "GetWeatherForecast")]
+        [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
